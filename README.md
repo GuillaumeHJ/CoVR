@@ -22,7 +22,7 @@ The work was done in collaboration with my project partner Arthur Bresnu, superv
 
 - `REPORT.pdf` — Full report with methodology, experiments, and discussion.
 - `results/` — Experiment outputs (tables, figures, qualitative examples, logs).
-- `src_diffs/` — Code snippets showing my modifications to the original CoVR repository:
+- `src_diffs/` — Code snippets showing my modifications to the original CoVR repository ([src_diffs/notes.md](src_diffs/notes.md)):
   - `mlp_combiner.py` — New module for the MLP combiner.
   - `filter_webvid.py` — Dataset filtering script.
   - `notes.md` — Overview of modified files/commits.
