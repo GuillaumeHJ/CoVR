@@ -10,9 +10,9 @@ The work was done in collaboration with my project partner Arthur Bresnu, superv
 ## ✨ Project Overview
 
 - **Baseline reproduction:** Reproduced CoVR evaluation on **CIRR** benchmark, verifying the published retrieval performance.
-- **MLP-based combiner:** Implemented a lightweight MLP that learns to combine multimodal, image, and text embeddings.  
+- **MLP-based combiner:** Implemented a lightweight MLP that learns to combine multimodal, image, and text embeddings for image/video retrieval across large datasets. 
   → Improved retrieval R@1 by ~0.8–1.2 points in fine-tuning setups.
-- **WebVid-CoVR filtering:** Filtered the large WebVid-CoVR dataset using CleanVid metadata for more relevant contrastive learning
+- **WebVid-CoVR filtering:** Filtered the large WebVid-CoVR dataset using CleanVid metadata for more consistant training over smaller dataset. Filtered out video-text-video triplet with different author and category.
   → Achieved similar zero-shot performance with ~3× less data and compute.
 - **Analysis:** Investigated learned weight distributions and provided qualitative retrieval examples.
 
