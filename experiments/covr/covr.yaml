@@ -1,0 +1,20 @@
+# @package _global_
+
+defaults:
+  - override /data: webvid-covr.yaml
+  - override /test: main.yaml
+  - override /model: blip-large.yaml
+  - override /model/ckpt: blip-l-coco.yaml
+
+model:
+  optimizer:
+    lr: 1e-05
+
+trainer:
+  max_epochs: 4
+
+val: False
+run_name: test_reproduce_covr
+
+data:
+  batch_size: 128
